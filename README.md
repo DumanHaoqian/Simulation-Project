@@ -1,10 +1,12 @@
 # Simulation-Project
 This project uses Stochastic Approximation to estimate the gradient of complicate functions. And use the estimated gradient to do the optimization and solve the real world problems. 
+
 (For queuing system and investment optimization)
+
 And this project is from PKU GLOBEX PROGRAMME Prof.Bernd HEIDERGOTT's course Simulation Methods for Optimization and Learning.
+
 At least, sincerely thanks my team mates:Cui Gehao, Han Yufeng, Lie Bob Jesse, Yuan Huan.
 
-Stochastic Approximation:
 #  **Simultaneous Perturbation Stochastic Approximation (SPSA)**
 
 We revisit the analysis of the two-sided FD scheme in the \( d \)-dimensional setting.
