@@ -30,4 +30,78 @@ for $\( 1 \leq i \leq d \)$.
 - Note that $\( \nabla J^{SPSA} \)$ requires only two evaluations of $\( J \)$ for evaluating approximately the entire gradient of size $\( d \)$ for arbitrary $\( d \)$.
 
 This method is called **Simultaneous Perturbation Stochastic Approximation (SPSA)**.
+
+Description of the problem:
+#Problem 1:
+In this project, we aim to determine the optimal investment strategy for an investor with a
+total capital of 1 unit. The capital is to be distributed among n companies over a time period
+of t units. The market value of company i at time t is given by Xi
+. Let xi ∈ R, i = 1, . . . , n be
+given thresholds. Company i will not be able to generate any profft if Xi < xi
+. If Xi ≥ xi
+, the
+return on the investment is given by Yi
+. Investing a fraction pi of the capital yields an expected
+return of
+piE[Yi1Xi≥xi
+] (1)
+for company i, where
+Xn
+i=1
+pi = 1 and 0 ≤ pi ≤ 1. (2)
+Assume that n = 3 and Yi are independent and uniformly distributed on [0, Xi
+]. We let
+Xi =
+ρV +
+p
+1 − ρ
+2ηi
+max(W, 1)
+, 1 ≤ i ≤ n, (3)
+with ηi normally distributed with mean 0 and variance i modeling the company’s idiosyncratic
+risk, V standard normally distributed modeling the common factor that affects the economy, and
+W exponentially distributed with rate 1/0.3 modeling common market shocks. The variables
+V , W, and ηi
+’s are all independent. The weight factor is set to ρ = 0.6, and the thresholds are
+x1 = 2, x2 = 3, and x3 = 1.
+The investor seeks to ffnd the optimal investment strategy by maximizing the risk-adjusted
+performance of the investment, also known as the Sharpe ratio, which leads to the objective
+function:
+max
+p1,p2,p3≥0,
+Ppi=1
+E
+
+
+ P3
+i=1
+piYi1Xi≥xi
+std
+P3
+i=1
+piYi1Xi≥xi
+
+
+ , (4)
+where std(X) denotes the standard deviation of the random variable X. To simplify the problem
+and solution process, we converted the objective function to:
+min
+p1,p2,p3≥0,
+Ppi=1
+−E
+
+
+ P3
+i=1
+piYi1Xi≥xi
+std
+P3
+i=1
+piYi1Xi≥xi
+
+
+ , (5)
+In order to visualize the objective function for the optimization, we drew the 3D plot of the
+function (Figure 1 and Figure 2).
+
  
