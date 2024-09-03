@@ -41,6 +41,9 @@ given thresholds. Company i will not be able to generate any profft if Xi < xi
 . Investing a fraction pi of the capital yields an expected
 return of
 $$
+\p_i
+$$
+$$
 \p_i E[\Y_i \1_{\X_i \geq \x_i}]
 $$
 
