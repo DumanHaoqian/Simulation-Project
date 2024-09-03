@@ -31,8 +31,7 @@ for $\( 1 \leq i \leq d \)$.
 
 This method is called **Simultaneous Perturbation Stochastic Approximation (SPSA)**.
 
-Description of the problem:
-#Problem 1:
+# Description of the problem 1:
 In this project, we aim to determine the optimal investment strategy for an investor with a
 total capital of 1 unit. The capital is to be distributed among n companies over a time period
 of t units. The market value of company i at time t is given by Xi
@@ -42,7 +41,7 @@ given thresholds. Company i will not be able to generate any profft if Xi < xi
 . Investing a fraction pi of the capital yields an expected
 return of
 $$
-p_i E[Y_i 1_{X_i \geq x_i}]
+\p_i E[\Y_i \1_{\X_i \geq \x_i}]
 $$
 
 for company i, where 
