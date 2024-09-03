@@ -38,14 +38,14 @@ total capital of 1 unit. The capital is to be distributed among n companies over
 of t units. The market value of company i at time t is given by Xi
 . Let xi ∈ R, i = 1, . . . , n be
 given thresholds. Company i will not be able to generate any profft if Xi < xi
-. If Xi ≥ xi
-, the
-return on the investment is given by Yi
+. If Xi ≥ xi, thereturn on the investment is given by Yi
 . Investing a fraction pi of the capital yields an expected
 return of
-piE[Yi1Xi≥xi
-] (1)
-for company i, where
+$$
+p_i E[Y_i 1_{X_i \geq x_i}]
+$$
+
+for company i, where 
 Xn
 i=1
 pi = 1 and 0 ≤ pi ≤ 1. (2)
