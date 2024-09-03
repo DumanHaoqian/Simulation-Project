@@ -9,7 +9,7 @@ Stochastic Approximation:
 
 We revisit the analysis of the two-sided FD scheme in the \( d \)-dimensional setting.
 
-**(A1)** Let \( c_n = \eta_n \Delta_n \), where \( \eta_n \) is a scalar and \( \Delta_n \) is a random vector such as \( \{\Delta_n\} \) is an iid sequence, with \( \Delta_n(k) \) as well as \( 1/\Delta_n(k) \) being bounded, symmetric around zero, and the components of \( \Delta_n(k) \) are mutually independent.
+Let \( c_n = $\eta_n \Delta_n \)$, where \( \eta_n \) is a scalar and \( \Delta_n \) is a random vector such as \( \{\Delta_n\} \) is an iid sequence, with \( \Delta_n(k) \) as well as \( 1/\Delta_n(k) \) being bounded, symmetric around zero, and the components of \( \Delta_n(k) \) are mutually independent.
 
 - A standard choice is 
 
