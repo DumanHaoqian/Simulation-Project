@@ -32,8 +32,8 @@ for $\( 1 \leq i \leq d \)$.
 This method is called **Simultaneous Perturbation Stochastic Approximation (SPSA)**.
 
 # Description of the problem 1:
-![p4](db8af0452a4a778ca65dafd091a47dc.png)
 ![p2](434c175fd941108385b2f1a5f5b0596.jpg)
+![p4](db8af0452a4a778ca65dafd091a47dc.png)
 ![p3](4fb7ba0f5983202a49b8317043472d8.png)
 
 # Description of problem 2:
