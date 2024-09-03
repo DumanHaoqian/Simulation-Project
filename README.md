@@ -32,5 +32,5 @@ for $\( 1 \leq i \leq d \)$.
 This method is called **Simultaneous Perturbation Stochastic Approximation (SPSA)**.
 
 # Description of the problem 1:
-![p1]()
+![p1](0a9488d78f07c21fd84d94ad6090266.jpg)
  
